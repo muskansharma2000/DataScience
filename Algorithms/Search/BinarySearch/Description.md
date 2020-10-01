@@ -20,3 +20,6 @@ It then checks whether the picked element equals, is smaller than or greater the
 In the first case the algorithm simply returns the element's position.\
 In the second or third case, the algorithm calls itself but with different bonds this time, depending on what the result of the above check was.\
 These two steps are repeated until either the element was found or there are no elements left inside the bonds, meaning that the element is not in the list.\
+// A recursive binary search function. 
+//It returns  location of x in given array arr[l..r] is present, 
+// otherwise -1 
